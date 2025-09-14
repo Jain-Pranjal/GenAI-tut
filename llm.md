@@ -37,4 +37,6 @@ so basciaily the character or the symbol , they are mapped to the number and all
 
 These number will sent to the transformer and the transformer will predict the next token and the we detokenize the number to the characters and then we will get the output in the form of characters.
 
+<mark>Every model has its own rules for tokenization and detokenization and they will be diff from others to make the token</mark>
+
 ![Tokenization and Detokenization](/images/tokenization.png)

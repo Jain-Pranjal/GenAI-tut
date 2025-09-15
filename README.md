@@ -33,5 +33,6 @@ we have various types of prompts
 2. one shot prompt - one example is given to the model 
 3. few shot prompt - few examples are given to the model
 4. chain of thought prompt - the model is guided to think step by step
+5. persona based prompt - the model is given a specific persona to follow while giving the response
 
 using the best prompt , we can fine tune the ai model that how it will respond to the user query and what not to respond to the user query. We can make the output resposne more structured and formatted using the prompt only.

@@ -25,3 +25,13 @@ from package import module
 
 # this will import only the specific module from the package
 ```
+ 
+## prompts
+Giving the right prompt can basically increase the performance of the model and accuracy of giving the response. by prompt only we can change the behaviour of the model that in what basis we need to give the response.
+we have various types of prompts
+1. zero shot prompt - no context is given to the model (direct instruction given ke do the work)
+2. one shot prompt - one example is given to the model 
+3. few shot prompt - few examples are given to the model
+4. chain of thought prompt - the model is guided to think step by step
+
+using the best prompt , we can fine tune the ai model that how it will respond to the user query and what not to respond to the user query.

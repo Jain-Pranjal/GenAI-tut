@@ -34,4 +34,4 @@ we have various types of prompts
 3. few shot prompt - few examples are given to the model
 4. chain of thought prompt - the model is guided to think step by step
 
-using the best prompt , we can fine tune the ai model that how it will respond to the user query and what not to respond to the user query.
+using the best prompt , we can fine tune the ai model that how it will respond to the user query and what not to respond to the user query. We can make the output resposne more structured and formatted using the prompt only.

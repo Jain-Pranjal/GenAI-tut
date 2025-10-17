@@ -1,12 +1,13 @@
 from openai import OpenAI
 from dotenv import load_dotenv
 import json
+import os
 
 load_dotenv() # take environment variables from .env.
 
 # creating the client
 client = OpenAI(
-    api_key="AIzaSyDdxr0eyziHjTrd27FBN0tRlKKlgUba9gw",
+    api_key=os.getenv("OPENAI_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 ) 
 # now it will redirect the request to the google gemini model server still using the same openai library syntax
